@@ -10,12 +10,13 @@
         </h2>
 
     </header>
-           <div class="subhead"> <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix="<span class='fa fa-tags'></span>&nbsp;"}}</div>
+           <div class="subhead"> 
+               <span>// </span><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+               </div>
 
     <section class="description">
-        <p>{{excerpt words="30"}} 
-
-<a class="read-more" href="{{url}}"><i class="el el-caret-right read-more"></i></a>
+        <p>
+        <a class="excerpt" href="{{url}}">{{excerpt words="30"}}...</a>
         </p>
     
     </section>

@@ -10,6 +10,19 @@
 
 }
 
+@font-face {
+    font-family: 'montserratregular';
+    src: url('/assets/fonts/montserrat-regular-webfont.eot');
+    src: url('/assets/fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('/assets/fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 pre {
   background-color:none;
   padding:0px;
@@ -17,7 +30,7 @@ pre {
 
 
 h1,h2,h3,h4,h5 {
-  font-family: "ApexBook"
+  font-family: "montserratregular"
 }
 a { 
 color:#4078c0;
@@ -90,17 +103,21 @@ ul.menu li:hover {
   background-size:cover !important;
 }
 .blog-description h1 {
-  font-size:25px;
+  font-size:2em;
   font-weight:300;
   line-height: 32px;
   padding-bottom:20px;
   border-bottom:10px solid rgba(64, 120, 192, 0.11);
 }
+.summary h2 {
+    margin-bottom: .15em;
+}
 .summary header a {
-  font-size:18px;
+  font-size:.8em;
+  margin-bottom: 0;
 }
 .summary .description p{
-  font-size:15px;
+  font-size:1.1em;
   color:#767676;
   font-weight:300;
 }
@@ -117,9 +134,9 @@ a.read-more{
 }
 .subhead {
   font-weight:300;
-  font-size:12px;
-  margin-bottom:15px;
-  font-style: italic;
+  font-size: 1em;
+  margin-bottom:.25em;
+  opacity: .6;
 }
 .footer-icon {
   color:#8CC665; 
@@ -130,4 +147,10 @@ a.read-more{
   width:90%;
   height:90%;
   line-height:5;
+}
+.excerpt {
+    color: black;
+}
+.excerpt:hover {
+    color: black;
 }
