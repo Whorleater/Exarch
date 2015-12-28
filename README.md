@@ -1,21 +1,7 @@
-# Coder Ghost Theme for Showcasing Projects
-Open sourcing the Coder Ghost theme. The coder ghost theme was built to show case my open source projects. The theme is packed with the following features :  
+# Exarch - A Minimalistic Ghost Theme
+Open source Ghost theme forked from the [CoderGhostTheme](https://github.com/mbejda/CoderGhostTheme). Main differences include a more pleasing typography setting, better alignment of the title and description, and a more responsive post view. Maintains the responsive UI, syntax highlighting, and other benefits of the original. 
 
-- mobile friendly
-- beautiful syntax highlighting
-- elusive icon set
-- stunning typography
-- thumbnail per post
-- seo optimized titles
+## [Demo]()  
 
-
-## Installation 
-Goto the Github and [download](https://twitter.com/notmilobejda) the repository zip archive and extract its contents. Change the contact urls in the `partials/navbar.hbs` file to your own and archive the contents. Upload the archive to your Ghost CMS. 
-
-
-![](https://www.mbejda.com/content/images/2015/12/download--2-.png#400)
-<hr>
-If you need support send me a tweet at <br>
-Twitter: [@notmilosbejda](https://twitter.com/notmilobejda)<br>
-Blog: [www.mbejda.com](https://github.com/mbejda/CoderGhostTheme)<br>
-Github: https://github.com/mbejda/CoderGhostTheme
+## Installation
+Download the zip archive from [releases](https://github.com/Whorleater/Exarch/releases), extract it, and put it in `contents/themes/`. Change the contact URLs in `partials/navbar.hbs` to your own. 
