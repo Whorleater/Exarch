@@ -752,11 +752,8 @@ margin on the iframe, cause it breaks stuff. */
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
-    width: 80%;
     max-width: 710px;
-    margin: 4rem auto;
-    padding-bottom: 4rem;
-    border-bottom: #EBF2F6 1px solid;
+/*    margin: 4rem auto;*/
     word-break: break-word;
     hyphens: auto;
 }
@@ -1482,7 +1479,26 @@ body:not(.post-template) .post-title {
     .no-cover.author-head.main-header {
         padding: 0;
     }
-
+    #navbar {
+        width: 8em;
+        display: block;
+        margin: 1em auto 0 auto;
+    }
+    #navbar li{
+        display: block;
+        margin: 0 5px 0 5px;
+        float: left;
+    }
+    #navbar li:hover {
+        border-right: 0;
+        
+    }
+    #navbar li a {
+        font-size: 1.5em;
+    }
+    #navbar li span {
+        display: none;
+    }
 }
 
 

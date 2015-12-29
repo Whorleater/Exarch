@@ -169,3 +169,6 @@ a.read-more{
 img {
     width: 100%;
 }
+article {
+    margin: 0;
+}

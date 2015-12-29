@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
 
     {{! Styles'n'Scripts }}
-    <!--<link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />-->
+    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
 
     {{! Added Bootstrap }}
     <link rel="stylesheet" href="{{asset "css/bootstrap.min.css"}}"/>
@@ -70,6 +70,10 @@
 <div class="col-md-10 col-xs-12">
     {{{body}}}
 </div>
+
+</div>
+<div class="visible-sm visible-xs">
+    {{> "navbar"}}
 </div>
 </div>
 
