@@ -28,6 +28,10 @@ pre {
   padding:0px;
 }
 
+body {
+    font-family: helvetica, arial, sans-serif;
+}
+
 
 h1,h2,h3,h4,h5 {
   font-family: "montserratregular"
@@ -46,6 +50,7 @@ h5 a {
    transition: all 0.5s ease;
     color:#333;
 }
+
 a:hover {
   color:#4078c0;
   text-decoration: none;
@@ -102,12 +107,16 @@ ul.menu li:hover {
 .cover {
   background-size:cover !important;
 }
-.blog-description h1 {
+.blog-description h1, #siteName {
   font-size:2em;
   font-weight:300;
   line-height: 32px;
-  padding-bottom:20px;
-  border-bottom:10px solid rgba(64, 120, 192, 0.11);
+}
+.blog-description p {
+    opacity: .6;
+}
+.blog-description .divider {
+  border-bottom: 5px solid rgba(64, 120, 192, 0.11);
 }
 .summary h2 {
     margin-bottom: .15em;
@@ -153,4 +162,10 @@ a.read-more{
 }
 .excerpt:hover {
     color: black;
+}
+#post-content {
+    font-size: 1em;
+}
+img {
+    width: 100%;
 }

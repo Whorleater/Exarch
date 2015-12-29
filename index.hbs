@@ -1,7 +1,9 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 <div class="blog-description col-md-12">
-<h1>{{@blog.description}}</h1>
+    <h1><a href="/">{{@blog.title}}</a></h1>
+    <p>{{@blog.description}}<p>
+    <div class="divider"></div>
 </div>
 {{! The main content area on the homepage }}
 {{! The tag below includes the post loop - partials/loop.hbs }}
