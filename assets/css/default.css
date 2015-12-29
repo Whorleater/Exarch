@@ -81,7 +81,7 @@ ul.menu li:hover {
   width:150px; 
   height:150px;
   padding:5px;
-  border-radius: 6px;
+  border-radius: 50%;
 }
 .menu li a{
   font-size:13px;
