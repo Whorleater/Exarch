@@ -12,30 +12,29 @@
 
 <div class="blog-description col-md-12">
     <h1><a href="/">{{@blog.title}}</a></h1>
-    <p>{{@blog.description}}<p>
-    <div class="divider"></div>
+    <p>{{@blog.description}}
+        <p>
+            <div class="divider"></div>
 </div>
 
 <main role="main">
 
     <article class="row {{post_class}} col-md-12">
-
         <header class="col-xs-12">
-        <div class="col-md-10 no-margin no-padding">
-            <h3 class="title">
+            <div class="col-md-10 no-margin no-padding">
+                <h3 class="title">
             {{title}}
             </h3>
-            <div class="subhead">
-                <span>// </span><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
-            </div>
-             </div>
-             
-<div class="col-md-2">
-{{#if image}}
-            <img src="{{image}}" class="post-image"/>
-            {{/if}}
+                <div class="subhead">
+                    <span>// </span>
+                    <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+                </div>
             </div>
 
+            <div class="col-md-2">
+                {{#if image}}
+                <img src="{{image}}" class="post-image" /> {{/if}}
+            </div>
         </header>
 
         <section class="col-xs-12" id="post-content">
@@ -43,15 +42,8 @@
         </section>
 
         <footer class="col-xs-12 author">
-            
             <hr>
-
-      
         </footer>
-
     </article>
-    
-
 </main>
-
 {{/post}}

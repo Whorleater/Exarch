@@ -3,21 +3,13 @@
 {{#contentFor "initHighlight"}}
     <script>hljs.initHighlightingOnLoad();</script>
 {{/contentFor}}
-
-
-
 <main class="container" role="main">
-
     <article class="{{post_class}}">
-    {{#post}}
-
+        {{#post}}
         <h1 class="title">{{title}}</h1>
-
         <section>
             {{content}}
         </section>
-
-    {{/post}}
+        {{/post}}
     </article>
-
 </main>
