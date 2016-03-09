@@ -161,6 +161,11 @@ img {
 article {
     margin: 0;
 }
+
+pre code span{
+	color: #666;
+}
+
 .hljs-preprocessor {
     color: #75715e;
 }
