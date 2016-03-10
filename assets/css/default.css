@@ -166,6 +166,10 @@ pre code span{
 	color: #666;
 }
 
+mainNav {
+	text-alight: right;
+}
+
 .hljs-preprocessor {
     color: #75715e;
 }
